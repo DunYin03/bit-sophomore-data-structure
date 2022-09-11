@@ -33,5 +33,8 @@
     <ClCompile Include="诸葛兔猜数.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="白兔让萝卜.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
