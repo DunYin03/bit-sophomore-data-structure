@@ -140,7 +140,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="程序设计方法\效率分析\6.萝卜三元组.c" />
+    <ClCompile Include="数据结构与算法\线性表\2.集合合并.c" />
+    <ClCompile Include="数据结构与算法\线性表\3.链表原地逆序.c" />
+    <ClCompile Include="数据结构与算法\线性表\5.求循环小数.c" />
+    <ClCompile Include="程序设计方法\效率分析\6.萝卜三元组.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="程序设计方法\热身题\3.swap .c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
