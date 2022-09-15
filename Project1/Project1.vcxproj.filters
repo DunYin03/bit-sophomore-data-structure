@@ -45,7 +45,7 @@
     <ClCompile Include="数据结构与算法\线性表\2.集合合并.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\线性表\3.链表原地逆序.c">
+    <ClCompile Include="数据结构与算法\线性表\3.链表原地逆序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="数据结构与算法\线性表\5.求循环小数.c">
