@@ -2,18 +2,15 @@
 #include <stdio.h>
 
 
-int change(int a, int b, int c, int d)
+long long change(long long a, long long b, long long c, long long d)
 {
-	int count = 0;
-	int long a1 = a * c * c * d;
-	for (int i = 1; i < d * c / b; i++)
+	long long count = 0;
+	long long a1 = a * c * c * d;
+	for (long long i = 1; b * i < c * d; i++)
 	{
-		int a2 = c * d - b * i;
-		if (a1 % a2 == 0)
+		if ((i * a * c) % (d * c - i * b) == 0)
 		{
-			int a3 = a1 / a2;
-			if ((a3 - a * c) % b == 0)
-				count++;
+				count++;	
 		}
 	}
 	return count;
@@ -21,12 +18,12 @@ int change(int a, int b, int c, int d)
 
 int main()
 {
-	int a, b, c, d, t;
+	long long a, b, c, d, t;
 	scanf("%d", &t);
 	for (int i = 0; i < t; i++)
 	{
-		scanf("%d %d %d %d", &a, &b, &c, &d);
-		printf("%d\n", change(a, b, c, d));
+		scanf("%lld %lld %lld %lld", &a, &b, &c, &d);
+		printf("%lld\n", change(a, b, c, d));
 	}
 	return 0;
 }
