@@ -57,5 +57,11 @@
     <ClCompile Include="程序设计方法\蛮力法\HomeWorkⅠ.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\蛮力法\求凸包.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="程序设计方法\蛮力法\扩散的牛奶.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
