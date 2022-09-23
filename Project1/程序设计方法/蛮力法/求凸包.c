@@ -14,25 +14,34 @@ double packed(int n)
 	double sum = 0;
 	int right = 0;
 	int left = 0;
-	for (int i = 1; i <= n; i++)
+	int equl = 0;
+	int k;
+	for (int i = 1; i < n; i++)
 	{
-		for (int j = 1; j <= n; j++)
+		for (int j = i + 1; j <= n; j++)
 		{
 			right = 0;
 			left = 0;
-			int k = 1;
+			equl = 0;
+			k = 1;
 			while(k <= n)
 			{
+				if (k == i || k == j)
+				{
+					k++;
+					continue;
+				}
 				if (x[i] * y[j] + x[k] * y[i] + x[j] * y[k] - x[k] * y[j] - x[j] * y[i] - x[i] * y[k] > 0)
 					right = 1;
-				else if(x[i] * y[j] + x[k] * y[i] + x[j] * y[k] - x[k] * y[j] - x[j] * y[i] - x[i] * y[k] < 0)
+				else if (x[i] * y[j] + x[k] * y[i] + x[j] * y[k] - x[k] * y[j] - x[j] * y[i] - x[i] * y[k] < 0)
 					left = 1;
+				else if (lengh(i,j)<lengh(i,k)||lengh(i,j)<lengh(j,k))
+					equl = 1;
 				k++;
 			}
-			if (right != left)
+			if ((left==0||right==0)&&(equl==0))
 			{
 				sum += lengh(i, j);
-				break;
 			}
 		}
 	}
@@ -51,16 +60,24 @@ int main()
 	for (int i = 1; i <= n; i++)
 	{
 		scanf("%d %d", &x[i], &y[i]);
+		for (int j = 1; j < i; j++)
+		{
+			if (x[i] == x[j] && y[i] == y[j])
+			{
+				i--;
+				n--;
+			}
+		}
 	}
 	if (n == 1)
 		printf("0\n");
 	else if (n == 2)
-		printf("%f", lengh(1, 2));
+		printf("%g", lengh(1, 2));
 	else if (n == 3)
 	{
 		int i = 1, j = 2, k = 3;
 		if (x[i] * y[j] + x[k] * y[i] + x[j] * y[k] - x[k] * y[j] - x[j] * y[i] - x[i] * y[k] != 0)
-			printf("%lf", lengh(1, 2) + lengh(1, 3) + lengh(2, 3));
+			printf("%g", lengh(1, 2) + lengh(1, 3) + lengh(2, 3));
 		else
 			printf("%lf", max(max(lengh(1, 2), lengh(1, 3)), lengh(2, 3)));
 	}
