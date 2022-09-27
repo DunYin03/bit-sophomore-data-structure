@@ -63,5 +63,17 @@
     <ClCompile Include="程序设计方法\蛮力法\扩散的牛奶.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\减治法\排列组合1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\栈和队列\求循环节.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\栈和队列\一元多项式相乘.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="程序设计方法\减治法\HomeWorkⅡ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
