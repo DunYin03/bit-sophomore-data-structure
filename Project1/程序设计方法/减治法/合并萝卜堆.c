@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-//
+
 void qsort(int a[], int start, int end)    //start和end都是指下标
 {
 	int i, j, temp;
