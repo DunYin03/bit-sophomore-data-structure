@@ -2,10 +2,20 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-void qsort(int a[], int start, int end)    //start和end都是指下标
+int n;
+long long a[100000] = {0};
+
+void swap(int i, int j)
 {
-	int i, j, temp;
-	int tmp;
+	long long temp = a[i];
+	a[i] = a[j];
+	a[j] = temp;
+}
+
+void qsort(long long a[], int start, int end)    //start和end都是指下标
+{
+	int i, j;
+	long long tmp,temp;
 
 	i = start;
 	j = end;
@@ -45,23 +55,26 @@ void qsort(int a[], int start, int end)    //start和end都是指下标
 
 int main()
 {
-	int n, a[100000];
+	long long sum = 0;
 	scanf("%d", &n);
 	for (int i = 0; i < n; i++)
 	{
-		scanf("%d", &a[i]);
+		scanf("%lld", &a[i]);
 	}
 	qsort(a, 0, n - 1);
 	if (n == 0)
-		printf("%d\n", a[0]);
+		printf("%lld\n", a[0]);
 	else
 	{
-		long long sum = 0;
-		long long add = a[0];
-		for (int i = 1; i < n; i++)
+		for (int i = 0; i < n - 1; i++)
 		{
-			add += a[i];
-			sum += add;
+			a[i + 1] += a[i];
+			sum += a[i + 1];
+			for (int k = i + 1; k < n; k++)
+				if (a[k] > a[k + 1])
+					swap(k, k + 1);
+				else
+					break;
 		}
 		printf("%lld\n", sum);
 	}
