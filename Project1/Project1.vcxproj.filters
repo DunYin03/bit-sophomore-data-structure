@@ -75,5 +75,8 @@
     <ClCompile Include="程序设计方法\减治法\HomeWorkⅡ.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\减治法\合并萝卜堆.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
