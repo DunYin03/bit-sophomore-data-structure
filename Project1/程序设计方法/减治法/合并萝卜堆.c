@@ -1,51 +1,36 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#define _CRT_SECURE_NO_WARNINGS 1
-#include <stdio.h>
-#include <stdlib.h>
+#define _CRT_SECURE_NO_WARNINGS 1  
+#define _CRT_SECURE_NO_WARNINGS 1  
+#include <stdio.h>  
+#include <stdlib.h>  
 
 int n;
 long long a[100000];
 
-void swap(int i, int j)
+
+//void swap(int i, int j)  
+//{  
+//    long long temp = a[i];  
+//    a[i] = a[j];  
+//    a[j] = temp;  
+//}  
+
+void find(long long x, long long n)
 {
-	long long temp = a[i];
-	a[i] = a[j];
-	a[j] = temp;
+    long long y, tem;
+    while (x * 2 <= n)
+    {
+        y = x * 2;
+        if (y + 1 <= n && a[y + 1] < a[y]) y++;
+        if (a[x] > a[y])
+        {
+            tem = a[x];
+            a[x] = a[y];
+            a[y] = tem;
+            x = y;
+        }
+        else break;
+    }
 }
-
-void qsort(long long a[], int start, int end)    //start和end都是指下标
-{
-	int i, j;
-	long long tmp,temp;
-
-	i = start;
-	j = end;
-	tmp = a[start];   //任命为中间分界线，左边比他小，右边比他大,通常第一个元素是基准数
-
-	if (i > j)  //如果下标i大于下标j，函数结束运行
-	{
-		return;
-	}
-
-	while (i != j)
-	{
-		while (a[j] >= tmp && j > i)
-		{
-			j--;
-		}
-
-		while (a[i] <= tmp && j > i)
-		{
-			i++;
-		}
-
-		if (j > i)
-		{
-			temp = a[j];
-			a[j] = a[i];
-			a[i] = temp;
-		}
-	}
 
 int main()
 {
@@ -56,7 +41,7 @@ int main()
     {
         scanf("%lld", &a[i]);
     }
-    for(int i = n/2;i>=1;i--)
+    for (int i = n / 2; i >= 1; i--)
         find(i, n);
     if (n == 0)
         printf("%lld\n", a[0]);
