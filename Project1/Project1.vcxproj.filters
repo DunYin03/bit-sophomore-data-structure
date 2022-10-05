@@ -81,5 +81,8 @@
     <ClCompile Include="程序设计方法\减治法\第k轻红萝卜.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\分治法\hss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
