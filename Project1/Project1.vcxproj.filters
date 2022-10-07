@@ -90,5 +90,8 @@
     <ClCompile Include="数据结构与算法\栈和队列\表达式求值.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\分治法\整数划分.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
