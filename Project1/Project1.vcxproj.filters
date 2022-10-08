@@ -93,5 +93,8 @@
     <ClCompile Include="程序设计方法\分治法\整数划分.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\分治法\Swaps, swaps, everywhere.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
