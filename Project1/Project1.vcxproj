@@ -201,7 +201,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="程序设计方法\分治法\棋盘覆盖.c" />
-    <ClCompile Include="程序设计方法\变治法\整数和.c" />
+    <ClCompile Include="程序设计方法\变治法\整数和.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="程序设计方法\变治法\消失的数字.c" />
+    <ClCompile Include="程序设计方法\变治法\胡萝卜坑.c" />
+    <ClCompile Include="程序设计方法\变治法\解线性方程组.c" />
     <ClCompile Include="程序设计方法\效率分析\6.萝卜三元组.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>

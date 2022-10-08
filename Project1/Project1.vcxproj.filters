@@ -102,5 +102,14 @@
     <ClCompile Include="程序设计方法\变治法\整数和.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\变治法\解线性方程组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="程序设计方法\变治法\胡萝卜坑.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="程序设计方法\变治法\消失的数字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
