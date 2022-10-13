@@ -24,7 +24,7 @@
     <ClCompile Include="程序设计方法\热身题\3.swap .c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\第一章 绪论\1.约瑟夫问题.c">
+    <ClCompile Include="数据结构与算法\第1章 绪论\1.约瑟夫问题.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="程序设计方法\热身题\4.萝卜的方差.c">
@@ -42,13 +42,13 @@
     <ClCompile Include="程序设计方法\效率分析\6.萝卜三元组.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\线性表\2.集合合并.c">
+    <ClCompile Include="数据结构与算法\第2章 线性表\2.集合合并.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\线性表\3.链表原地逆序.cpp">
+    <ClCompile Include="数据结构与算法\第2章 线性表\3.链表原地逆序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\线性表\5.求循环小数.c">
+    <ClCompile Include="数据结构与算法\第2章 线性表\5.求循环小数.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="程序设计方法\蛮力法\Multiplication.c">
@@ -66,10 +66,10 @@
     <ClCompile Include="程序设计方法\减治法\排列组合1.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\栈和队列\求循环节.c">
+    <ClCompile Include="数据结构与算法\第3章 栈和队列\求循环节.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\栈和队列\一元多项式相乘.c">
+    <ClCompile Include="数据结构与算法\第3章 栈和队列\一元多项式相乘.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="程序设计方法\减治法\HomeWorkⅡ.c">
@@ -84,10 +84,10 @@
     <ClCompile Include="程序设计方法\分治法\hss.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\栈和队列\从中缀想后缀转换.c">
+    <ClCompile Include="数据结构与算法\第3章 栈和队列\从中缀想后缀转换.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="数据结构与算法\栈和队列\表达式求值.c">
+    <ClCompile Include="数据结构与算法\第3章 栈和队列\表达式求值.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="程序设计方法\分治法\整数划分.c">
@@ -109,6 +109,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="程序设计方法\变治法\消失的数字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第4章 数组和广义表\矩阵的快速转置算法.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第4章 数组和广义表\稀疏矩阵的乘法运算.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
