@@ -120,5 +120,11 @@
     <ClCompile Include="数据结构与算法\第4章 数组和广义表\广义表的建立与基本操作.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数据结构与算法\第4章 数组和广义表\股票撮合系统.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第4章 数组和广义表\综教楼后的那个坑.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
