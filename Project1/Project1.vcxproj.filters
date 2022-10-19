@@ -129,5 +129,17 @@
     <ClCompile Include="数据结构与算法\第4章 数组和广义表\广义表反序.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\综合练习1\投资.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第5章 二叉树\二叉哥的二叉树.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第5章 二叉树\二叉树的建立与基本操作.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第5章 二叉树\二叉树遍历序列还原.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
