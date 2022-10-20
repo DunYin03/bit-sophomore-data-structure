@@ -141,5 +141,14 @@
     <ClCompile Include="数据结构与算法\第5章 二叉树\二叉树遍历序列还原.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数据结构与算法\第5章 二叉树\树的建立与基本操作（广义表）.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第5章 二叉树\前缀码判定.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第5章 二叉树\计算WPL.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
