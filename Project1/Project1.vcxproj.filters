@@ -150,5 +150,8 @@
     <ClCompile Include="数据结构与算法\第5章 二叉树\计算WPL.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\综合练习1\郊游过河.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
