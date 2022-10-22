@@ -153,5 +153,8 @@
     <ClCompile Include="程序设计方法\综合练习1\郊游过河.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="程序设计方法\综合练习1\简单的木棍拼凑问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
