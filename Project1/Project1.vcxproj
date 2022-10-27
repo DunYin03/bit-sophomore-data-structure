@@ -220,6 +220,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="数据结构与算法\第5章 回溯\最优装载问题.c" />
+    <ClCompile Include="数据结构与算法\第5章 回溯\运动员最佳配对问题.c" />
     <ClCompile Include="程序设计方法\减治法\HomeWorkⅡ.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
