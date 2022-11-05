@@ -195,5 +195,11 @@
     <ClCompile Include="数据结构与算法\第6章 图\网络楼楼通.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数据结构与算法\第6章 图\求单点的最短路径.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第6章 贪心\小游戏（贪心）.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
