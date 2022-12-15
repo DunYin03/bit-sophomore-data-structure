@@ -210,5 +210,29 @@
     <ClCompile Include="数据结构与算法\第7张 查找\平衡二叉树.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数据结构与算法\第8章 排序和分治\堆排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第8章 排序和分治\快速排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第8章 排序和分治\油井问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第8章 排序和分治\套圈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第9章 动态规划\数字三角形问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第9章 动态规划\租用游艇.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第9章 动态规划\石子合并.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构与算法\第9章 动态规划\矩阵链乘问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
